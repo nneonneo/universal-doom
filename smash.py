@@ -12,7 +12,7 @@ from struct import pack_into, unpack_from
 dos = bytearray(open('DOOMD.EXE', 'rb').read())
 win = bytearray(open('DOOMW.EXE', 'rb').read())
 
-msg = b'Universal DOOM (DOS/WIN) by @nneonneo, 2020-11-13\0'
+msg = b'Universal DOOM (DOS/WIN) by @nneonneo, 2020-11-29\0'
 msg = msg.ljust(len(msg) + (-len(msg)) % 4, b'\0')
 
 next_offset, = unpack_from('<I', win, 0x3c)
