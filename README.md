@@ -1,5 +1,9 @@
 A single .exe binary which runs DOOM on DOS 6, Windows 95 and Windows 10 (and probably everything in between).
 
+## Quickstart
+
+Run `DOOM.EXE` on your OS of choice, making sure that a suitable .WAD file is present. `DOOM1.WAD`, in this repo, is the shareware demo.
+
 ## Introduction
 
 DOS and Windows .exe files both start with a common header (the DOS "MZ" header), which might suggest that you can run programs for one OS on the other one. However, this is complicated by a few facts: DOS support was dropped in Windows a long time ago (DOS binaries don't load on Windows 10, for example), and DOS programs use a completely different execution environment.
